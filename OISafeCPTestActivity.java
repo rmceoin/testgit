@@ -1,5 +1,6 @@
 package org.openintents.safecptest;
 
+// just a comment
 
 import android.app.Activity;
 import android.database.Cursor;
