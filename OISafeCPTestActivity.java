@@ -71,7 +71,7 @@ public class OISafeCPTestActivity extends Activity {
 	        	Log.d(TAG,"random logging");
 	        	result.setText("Could not find OI Safe provider");
 	        }else {
-	        	result.setText("got an mCursor");
+	        	result.setText("got a result");
 	        	if (mCursor.moveToFirst()) {
 	        	    do {
 		        	    Log.d(TAG,"columns="+mCursor.getColumnCount());
