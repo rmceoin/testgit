@@ -68,6 +68,7 @@ public class OISafeCPTestActivity extends Activity {
 	        	    null);                        // The sort order for the returned rows
 	        if (mCursor==null) {
 	        	Log.d(TAG,"mCursor=null");
+	        	Log.d(TAG,"random logging");
 	        	result.setText("Could not find OI Safe provider");
 	        }else {
 	        	result.setText("got an mCursor");
