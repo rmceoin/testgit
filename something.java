@@ -2,3 +2,5 @@
 // testing something
 //
 
+int something;
+
