@@ -5,6 +5,9 @@ package org.openintents.safecptest;
 // more other comments
 //
 
+//
+// fix some code
+
 import android.app.Activity;
 import android.database.Cursor;
 import android.net.Uri;
