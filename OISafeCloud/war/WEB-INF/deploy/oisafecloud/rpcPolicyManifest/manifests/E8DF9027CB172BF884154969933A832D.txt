@@ -1,0 +1,2 @@
+serviceClass: org.openintents.safecloud.client.service.CategoryService
+path: FC430F422BF4CD72E18F382B4F6411F5.gwt.rpc

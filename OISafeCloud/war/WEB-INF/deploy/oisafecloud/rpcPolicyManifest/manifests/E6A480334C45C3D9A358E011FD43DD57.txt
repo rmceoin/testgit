@@ -1,0 +1,2 @@
+serviceClass: org.openintents.safecloud.client.service.LoginService
+path: 5E88297EBC5D7954B99E592EE9DF27DD.gwt.rpc

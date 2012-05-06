@@ -1,0 +1,21 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+  xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+  <ui:style src="../resources/GlobalStyles.css">
+    .loading {
+      width: 100%;
+      padding: 55px ;
+    }
+  </ui:style>
+  <g:HTMLPanel width='100%'>
+    <div class='{style.contentColumn}'>
+      <div class='{style.addCategoryBox}'>
+        <g:Hyperlink styleName='{style.addCategoryLink}' ui:field='addNew'>+new</g:Hyperlink>
+      </div>
+      <div class="{style.titleBar}">Categories</div>
+      <g:Label ui:field='loadingLabel' styleName='{style.loading}'>Loading...</g:Label>
+      <g:FlexTable ui:field='categoriesTable' />
+    </div>
+  </g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,38 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+  <ui:style src="resources/GlobalStyles.css">
+    
+    .headerContainer {
+      padding: 0 11px;
+    }
+    
+    .welcomeDiv {
+      float: right;
+      margin-top: 5px; 
+      width: 200px;
+    }
+    
+    .tagLine {
+      margin-left: 180px;
+      padding-top: 22px;
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+
+  </ui:style>
+
+  <g:HTMLPanel>
+
+    <div class='{style.headerContainer}'>
+      <div>
+        <div class="{style.welcomeDiv}" ui:field='welcome'>
+          <b><span ui:field="welcomeMsg"/><span ui:field="username"/></b>
+          <g:Anchor ui:field='loginLogout'>login</g:Anchor>
+        </div>
+        <div class='{style.tagLine}'>OI Safe Cloud</div>
+      </div>
+    </div>
+  </g:HTMLPanel>
+</ui:UiBinder>

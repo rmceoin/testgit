@@ -1,0 +1,29 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:app="urn:import:org.openintents.safecloud.client"
+	>
+	<ui:style src="resources/GlobalStyles.css" />
+	
+	<g:DockLayoutPanel unit='EM'>
+	<g:north size='4'>
+      <app:HeaderPanel ui:field='headerPanel' />
+	</g:north>
+
+	<g:west size='16'>
+		<g:VerticalPanel ui:field='categoryListPanel' />
+	</g:west>
+
+		<g:center>
+			<g:HTMLPanel styleName='{style.boxPadding}'>
+				<div class="{style.titleBar}">Latest Activity</div>
+				<g:ScrollPanel ui:field='mainPanel' styleName='{style.mainPanel}' >
+				</g:ScrollPanel>
+			</g:HTMLPanel>
+		</g:center>
+  
+    <g:south size='14'>
+      <g:Label>South Area</g:Label>
+    </g:south>
+</g:DockLayoutPanel>
+</ui:UiBinder> 

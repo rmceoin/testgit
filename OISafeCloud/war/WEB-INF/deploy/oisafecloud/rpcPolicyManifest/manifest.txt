@@ -1,0 +1,5 @@
+# Module oisafecloud
+# RPC service class, partial path of RPC policy file
+com.google.gwt.logging.shared.RemoteLoggingService, 968DFF398FC6A2852EE88CFBAE5D23E2.gwt.rpc
+org.openintents.safecloud.client.service.LoginService, 5E88297EBC5D7954B99E592EE9DF27DD.gwt.rpc
+org.openintents.safecloud.client.service.CategoryService, FC430F422BF4CD72E18F382B4F6411F5.gwt.rpc
