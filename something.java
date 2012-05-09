@@ -4,3 +4,5 @@
 
 int something;
 
+something=1;
+
