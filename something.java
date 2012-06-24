@@ -6,4 +6,6 @@ int something;
 
 something=1;
 
-if (debug) { print blah; }
+if (debug) {
+	print blah;
+}
