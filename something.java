@@ -8,4 +8,5 @@ something=1;
 
 if (debug) {
 	print blah;
+	print "ack";
 }
