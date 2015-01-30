@@ -1,4 +1,4 @@
-
+//
 // testing something
 //
 
@@ -10,4 +10,5 @@ if (debug) {
 	print blah;
 	print "Some kind of test";
 	print "and other info\n";
+	print "fancy feature\n";
 }
