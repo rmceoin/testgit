@@ -4,7 +4,7 @@
 
 int something;
 
-something=1;
+something=0;
 
 if (debug) {
 	print blah;
