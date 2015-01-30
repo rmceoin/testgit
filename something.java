@@ -2,6 +2,8 @@
 // testing something
 //
 
+include ack;
+
 int something;
 
 something=0;
