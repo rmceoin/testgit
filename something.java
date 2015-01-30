@@ -8,5 +8,5 @@ something=1;
 
 if (debug) {
 	print blah;
-	print "ack";
+	print "Some kind of test";
 }
