@@ -15,4 +15,9 @@ git checkout master
 git merge develop
 ```
 
+## Tag master with new version
 
+```
+git tag -a v1.0.0
+git push origin --tags
+```
