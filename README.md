@@ -22,5 +22,3 @@ git tag -a v1.0.0
 git push origin --tags
 ```
 
-Going to commit this change, push it, then try to undo it
-
